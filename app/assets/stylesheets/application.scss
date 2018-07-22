@@ -1,0 +1,85 @@
+body{
+	margin: 0;
+	font-family: "latolight", Helvetica, sans-serif;
+	background: #edeef0;
+	/*background-image: url(/assets/Background.jpg);*/
+	background-size: cover;
+	background-attachment: fixed;
+
+	#common-header{
+		display: flex;
+		justify-content: space-around;
+		box-shadow: 1px 4px 9px 2px #727582;
+		background-color: #5aadea;
+		h2{
+		display: inline-block;
+		}
+
+
+		.logo{
+			width: 40%;
+			text-align: left;
+		}
+
+		.auth-info-links{
+			width: 40%;
+			text-align: right;
+
+			display: flex;
+			justify-content: flex-end;
+
+			p{
+				margin-right: 15px;
+				line-height:2.5;
+			}
+		}
+
+	}
+	.group-links{
+	display: inline-block;
+	width: 25%;
+		h1,h3{
+		text-align: center;
+		}
+	}
+	
+	.deewar-posts{
+	display: inline-block;
+	width: 48%;
+	margin-top: 45px;
+
+		h2{
+		text-align: center;
+    	text-decoration: underline;
+		}
+		.new_post{
+		text-align: center;
+		display: flex;
+    	justify-content: space-evenly;
+    	flex-direction: column;   	
+		}
+		.new_comment{
+		text-align: center;
+		display: flex;
+    	justify-content: space-evenly;
+    	flex-direction: column;
+		}
+	}
+	
+	.friend-list{
+	display: inline-block;
+	width: 27%;
+		h1, h3{
+		text-align: center;
+		}
+	}
+	.buttons{
+	color: white;
+	background-color: #1389e0;
+	align-self: center;
+	}
+
+	#posts-home{
+	display: flex;
+	}
+}
